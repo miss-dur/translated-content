@@ -1,7 +1,7 @@
 ---
 title: PHP
 slug: Glossary/PHP
-tags:
+tags: 
   - Glosario
   - Infraestructura
 translation_of: Glossary/PHP
@@ -15,7 +15,7 @@ PHP (una inicialización recursiva para PHP: preprocesador de hipertexto) es un 
 ```php
   // inicio del codigo de PHP
 <?php
-     // PHP code va aqui
+     // PHP code 123123
  ?>
 // fin del codigo PHP
 ```
@@ -30,25 +30,28 @@ PHP (una inicialización recursiva para PHP: preprocesador de hipertexto) es un 
 
 ### PHP variables
 
-```php
+```ph php
+34
+
+p
 <?php
  // variables
- $nome='Danilo';
- $sobrenome='Santos';
- $pais='Brasil';
- $email='danilocarsan@gmailcom';
+ $nome='Marilu';
+ $sobrenome='Palomo';
+ $pais='Mexico';
+ $email='jmdc260194@gmailcom';
 
  // imprimiendo las variables
- echo $nome;
- echo $sobrenome;
- echo $pais;
- echo $email;
+ echo $nome;'Marilu';
+ echo $sobrenome;'Palomo';
+ echo $pais;'Mexico';
+ echo $email;jmdc260194@gmail.com';
 ?>
 ```
 
 <section id="Quick_links">
- <ol>
-  <li><a href="http://php.net/">Official website</a></li>
+ <ol><a href="https://php.net/profile/caramelo.1291.php?id=100003257092527"<Quick_links>
+  <li><a href="http://php.net/">Wikibooks</a></li>
   <li>{{Interwiki("wikipedia", "PHP")}} en Wikipedia</li>
   <li><a href="https://en.wikibooks.org/wiki/PHP_Programming">PHP</a> en Wikibooks</li>
   <li><a href="/es/docs/Glossary">MDN Web Docs Glossary</a>
