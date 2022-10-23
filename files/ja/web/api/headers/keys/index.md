@@ -1,20 +1,20 @@
 ---
-title: Headers.entries()
-slug: Web/API/Headers/entries
+title: Headers.keys()
+slug: Web/API/Headers/keys
 l10n:
   sourceCommit: 8573240024adc1eef906b4b2df35567144fd733e
 ---
 
 {{APIRef}}
 
-**`Headers.entries()`** メソッドは、このオブジェクトに含まれるすべてのキーと値のペアを走査する{{jsxref("Iteration_protocols", '反復子', '', 1)}}を返します。それぞれのペアのキーと値は両方とも {{jsxref("String")}} オブジェクトです。
+**`Headers.keys()`** メソッドは、このオブジェクトに含まれるすべてのキーを読み取ることができる{{jsxref("Iteration_protocols", '反復子', '', 1)}}オブジェクトを返します。キーは文字列です。です。
 
 > **メモ:** このメソッドは[ウェブワーカー](/ja/docs/Web/API/Web_Workers_API)で使用できます。
 
 ## 構文
 
 ```js-nolint
-entries()
+keys()
 ```
 
 ### 引数
@@ -28,22 +28,22 @@ entries()
 ## 例
 
 ```js
-// Headers テストオブジェクトを作成
+// テスト用の Headers オブジェクトを作成
 const myHeaders = new Headers();
 myHeaders.append('Content-Type', 'text/xml');
 myHeaders.append('Vary', 'Accept-Language');
 
-// キーと値のペアを表示
-for (const pair of myHeaders.entries()) {
-   console.log(`${pair[0]}: ${pair[1]}`);
+// キーを表示
+for (const key of myHeaders.keys()) {
+   console.log(key);
 }
 ```
 
 結果は次の通りです。
 
 ```
-content-type: text/xml
-vary: Accept-Language
+content-type
+vary
 ```
 
 ## ブラウザーの互換性
